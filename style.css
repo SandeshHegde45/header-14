@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+body {
+  font-family: "DM Sans";
+}
+
+.blue-bg {
+  background: var(--background-dark, #2f1893);
+  min-height: 100vh;
+}
+.pink-button {
+  border-radius: 100px;
+  background: var(--action-third, #e93a7d) !important;
+  color: var(--colors-white, #fff);
+  text-align: center;
+  width: 120px;
+  height: 40px;
+}
+button {
+  background: none;
+  border: none !important;
+}
+.color-gray {
+  color: rgba(255, 255, 255, 0.3);
+}
+.bg-white {
+  border-radius: 10px;
+  background: var(--background-light, #fff);
+}
+.blue-btn {
+  border-radius: 100px;
+  background: var(--action-secondary, #482be7);
+  width: 330px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.sky-blue-btn {
+  border-radius: 100px;
+  background: var(--socials-twitter, #1da1f2);
+  width: 330px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.gray-text {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  font-size: 16px;
+}
+.sign-up-heading {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+}
+.left-side-header {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+.sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.para1{
+  color: var(--colors-text, rgba(21, 20, 57, 0.40));
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+
+.sign1{
+  color: var(--action-primary, #25DAC5);
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
